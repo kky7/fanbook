@@ -3,7 +3,7 @@ app = Flask(__name__)
 
 from pymongo import MongoClient
 from id import create_id
-client = MongoClient("mongodb+srv://test:sparta@cluster0.mndqybx.mongodb.net/Cluster0?retryWrites=true&w=majority")
+client = MongoClient("본인 url추가")
 db = client.Fanbook
 
 @app.route('/')
