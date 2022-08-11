@@ -14,7 +14,6 @@ def home():
 def fanbook_post():
     name_receive = request.form["name_give"]
     comment_receive = request.form["comment_give"]
-    # fanbook_list = list(db.fanbook.find({}, {'_id': False}))
     id = create_id()
 
     doc = {
@@ -38,11 +37,6 @@ def fanbook_likes():
 def fanbook_del():
     id_receive = request.form["id_give"]
     db.fanbook.delete_one({'id': int(id_receive)})
-    # fanbook_list = list(db.fanbook.find({'num':{"$gt":int(num_receive)}},{'_id': False}))
-    #
-    # for i in range(len(fanbook_list)):
-    #     old_num = fanbook_list[i]['num']
-    #     db.fanbook.update_one({'num': old_num}, {'$set': {'num': old_num-1}})
 
     return jsonify({'msg': '응원을 삭제 합니다.'})
 
