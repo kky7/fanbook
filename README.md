@@ -5,7 +5,3 @@
 수업에서 배운 내용에서 각 카드에 좋아요 누르기(새로고침 없이도 숫자 변경됨), 각 카드 접기, 각 카드 열기, 각 카드 삭제 기능을 추가했습니다.  
 http://kypr.shop 에서 페이지를 확인할 수 있습니다.
 
-<p align = "center">
-  <img src = "https://user-images.githubusercontent.com/108081586/184470431-4a2836eb-abd3-4b67-99fb-f9437f8fe0d8.gif">
-  
- </p>
